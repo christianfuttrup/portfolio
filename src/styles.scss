@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f9f8f7;
+    background-image: repeating-linear-gradient(260deg,#f5efeb,#fafafb);
+    margin: 0;
+    
+}
+
+a, a:visited, body {
+    color: rgba(0, 0, 0, 0.80);
+}
