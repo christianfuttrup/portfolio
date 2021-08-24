@@ -1,0 +1,26 @@
+@use 'sass:color';
+
+:host {
+    display: flex;
+    flex-direction: column;
+
+    ::ng-deep svg {
+        padding: 0.3em;
+
+        &:hover {
+            background: color.adjust(orange, $lightness: 20%);
+        }
+    }
+}
+
+fa-icon {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+a {
+    display: contents;
+    padding: 1em;
+}
+

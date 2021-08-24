@@ -1,0 +1,20 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100vw;
+    height: 100vh;
+
+    div {
+        align-content: space-between;
+        flex-grow: 1;
+
+        &.content {
+            flex-grow: 3;
+        }
+
+        &.profile-picture {
+            flex-grow: 2;
+        }
+    }
+}

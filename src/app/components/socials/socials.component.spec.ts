@@ -22,4 +22,10 @@ describe('SocialsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should display icons', () => {
+    expect(component.mail).toBeDefined();
+    expect(component.linkedIn).toBeDefined();
+    expect(component.twitter).toBeDefined();
+  })
 });
