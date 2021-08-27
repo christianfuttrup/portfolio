@@ -1,0 +1,15 @@
+@use 'fonts';
+
+.italic {
+    font-style: italic;
+}
+
+.link {
+    border-bottom: $font-color;
+    text-decoration: none;
+
+    &:hover {
+        border-bottom: 1px solid $link-hover-color;
+        color: $link-hover-color;
+    }
+}
